@@ -9,4 +9,7 @@ public class TestController {
     public String test(){
         return "hello springboot";
     }
+
+    @RequestMapping("/hello")
+    public String p(){return "hello";}
 }
